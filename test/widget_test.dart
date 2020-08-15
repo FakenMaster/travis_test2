@@ -17,5 +17,6 @@ void main() {
 
     // Verify that our counter starts at 0.
     expect(find.text('Hello, Travis Test2'), findsOneWidget);
+    expect(find.text('Hello'), findsWidgets);
   });
 }
