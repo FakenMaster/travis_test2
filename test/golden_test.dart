@@ -6,7 +6,7 @@ void main() {
   testWidgets('Golden file testing', (WidgetTester tester) async {
     await tester.pumpWidget(
       RepaintBoundary(
-        child: MyWidget(40),
+        child: MyWidget(30),
       ),
     );
 
